@@ -16,6 +16,10 @@
 		53BBB0812B71ED2700535D16 /* SwitchProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BBB0802B71ED2700535D16 /* SwitchProjectTests.swift */; };
 		53BBB08B2B71ED2700535D16 /* SwitchProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BBB08A2B71ED2700535D16 /* SwitchProjectUITests.swift */; };
 		53BBB08D2B71ED2700535D16 /* SwitchProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BBB08C2B71ED2700535D16 /* SwitchProjectUITestsLaunchTests.swift */; };
+		53BBB09A2B720CD900535D16 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BBB0992B720CD800535D16 /* ViewModel.swift */; };
+		6C1CA56CB000747C4FEE4759 /* Pods_SwitchProject_SwitchProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 800E913E6E4229FB8CF402A0 /* Pods_SwitchProject_SwitchProjectUITests.framework */; };
+		9FE079947A039BB0E76A5FAC /* Pods_SwitchProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD28E2F3006DBD4A4FCDD45E /* Pods_SwitchProjectTests.framework */; };
+		F65187869BA1B1D600797452 /* Pods_SwitchProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 700F60729ED8E7CD5DBCC2B4 /* Pods_SwitchProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,16 @@
 		53BBB0862B71ED2700535D16 /* SwitchProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53BBB08A2B71ED2700535D16 /* SwitchProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchProjectUITests.swift; sourceTree = "<group>"; };
 		53BBB08C2B71ED2700535D16 /* SwitchProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		53BBB0992B720CD800535D16 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewModel.swift; path = "/Users/a667459/Documents/swift-project/SwitchProject/SwitchProject/ViewModel.swift"; sourceTree = "<absolute>"; };
+		570C9C9520AA79A153CBE226 /* Pods-SwitchProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-SwitchProjectTests/Pods-SwitchProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5AF9DF6416560A9131CFB0B3 /* Pods-SwitchProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchProjectTests.release.xcconfig"; path = "Target Support Files/Pods-SwitchProjectTests/Pods-SwitchProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		6FC9F1EE261940D682364EA5 /* Pods-SwitchProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchProject.debug.xcconfig"; path = "Target Support Files/Pods-SwitchProject/Pods-SwitchProject.debug.xcconfig"; sourceTree = "<group>"; };
+		700F60729ED8E7CD5DBCC2B4 /* Pods_SwitchProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwitchProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78199EBE28AB736C29F9710D /* Pods-SwitchProject-SwitchProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchProject-SwitchProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwitchProject-SwitchProjectUITests/Pods-SwitchProject-SwitchProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		800E913E6E4229FB8CF402A0 /* Pods_SwitchProject_SwitchProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwitchProject_SwitchProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96915C7101E99B295B6557C /* Pods-SwitchProject-SwitchProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchProject-SwitchProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-SwitchProject-SwitchProjectUITests/Pods-SwitchProject-SwitchProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CD28E2F3006DBD4A4FCDD45E /* Pods_SwitchProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwitchProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D10A539016B39618F5A023 /* Pods-SwitchProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchProject.release.xcconfig"; path = "Target Support Files/Pods-SwitchProject/Pods-SwitchProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F65187869BA1B1D600797452 /* Pods_SwitchProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FE079947A039BB0E76A5FAC /* Pods_SwitchProjectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C1CA56CB000747C4FEE4759 /* Pods_SwitchProject_SwitchProjectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17E8ABB25D3BA44B90B41643 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				700F60729ED8E7CD5DBCC2B4 /* Pods_SwitchProject.framework */,
+				800E913E6E4229FB8CF402A0 /* Pods_SwitchProject_SwitchProjectUITests.framework */,
+				CD28E2F3006DBD4A4FCDD45E /* Pods_SwitchProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		53BBB05D2B71ED2500535D16 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +110,8 @@
 				53BBB07F2B71ED2700535D16 /* SwitchProjectTests */,
 				53BBB0892B71ED2700535D16 /* SwitchProjectUITests */,
 				53BBB0672B71ED2500535D16 /* Products */,
+				AAD29877CBEF14CDC2034E81 /* Pods */,
+				17E8ABB25D3BA44B90B41643 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +128,7 @@
 		53BBB0682B71ED2500535D16 /* SwitchProject */ = {
 			isa = PBXGroup;
 			children = (
+				53BBB0992B720CD800535D16 /* ViewModel.swift */,
 				53BBB0692B71ED2500535D16 /* AppDelegate.swift */,
 				53BBB06B2B71ED2500535D16 /* SceneDelegate.swift */,
 				53BBB06D2B71ED2500535D16 /* ViewController.swift */,
@@ -127,6 +157,19 @@
 			path = SwitchProjectUITests;
 			sourceTree = "<group>";
 		};
+		AAD29877CBEF14CDC2034E81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FC9F1EE261940D682364EA5 /* Pods-SwitchProject.debug.xcconfig */,
+				D4D10A539016B39618F5A023 /* Pods-SwitchProject.release.xcconfig */,
+				78199EBE28AB736C29F9710D /* Pods-SwitchProject-SwitchProjectUITests.debug.xcconfig */,
+				A96915C7101E99B295B6557C /* Pods-SwitchProject-SwitchProjectUITests.release.xcconfig */,
+				570C9C9520AA79A153CBE226 /* Pods-SwitchProjectTests.debug.xcconfig */,
+				5AF9DF6416560A9131CFB0B3 /* Pods-SwitchProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53BBB0902B71ED2700535D16 /* Build configuration list for PBXNativeTarget "SwitchProject" */;
 			buildPhases = (
+				D9561D3E2279775FE9BFFEA1 /* [CP] Check Pods Manifest.lock */,
 				53BBB0622B71ED2500535D16 /* Sources */,
 				53BBB0632B71ED2500535D16 /* Frameworks */,
 				53BBB0642B71ED2500535D16 /* Resources */,
+				378DEFBE60A1F0921F59A363 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53BBB0932B71ED2700535D16 /* Build configuration list for PBXNativeTarget "SwitchProjectTests" */;
 			buildPhases = (
+				ABD995DB779EEF584649227B /* [CP] Check Pods Manifest.lock */,
 				53BBB0782B71ED2700535D16 /* Sources */,
 				53BBB0792B71ED2700535D16 /* Frameworks */,
 				53BBB07A2B71ED2700535D16 /* Resources */,
@@ -169,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53BBB0962B71ED2700535D16 /* Build configuration list for PBXNativeTarget "SwitchProjectUITests" */;
 			buildPhases = (
+				587A5E7392B668A2205BDEE2 /* [CP] Check Pods Manifest.lock */,
 				53BBB0822B71ED2700535D16 /* Sources */,
 				53BBB0832B71ED2700535D16 /* Frameworks */,
 				53BBB0842B71ED2700535D16 /* Resources */,
+				A44F53B93951C27FE4D341E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +301,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		378DEFBE60A1F0921F59A363 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwitchProject/Pods-SwitchProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwitchProject/Pods-SwitchProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwitchProject/Pods-SwitchProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		587A5E7392B668A2205BDEE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwitchProject-SwitchProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A44F53B93951C27FE4D341E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwitchProject-SwitchProjectUITests/Pods-SwitchProject-SwitchProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwitchProject-SwitchProjectUITests/Pods-SwitchProject-SwitchProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwitchProject-SwitchProjectUITests/Pods-SwitchProject-SwitchProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABD995DB779EEF584649227B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwitchProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9561D3E2279775FE9BFFEA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwitchProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		53BBB0622B71ED2500535D16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,6 +411,7 @@
 			files = (
 				53BBB06E2B71ED2500535D16 /* ViewController.swift in Sources */,
 				53BBB06A2B71ED2500535D16 /* AppDelegate.swift in Sources */,
+				53BBB09A2B720CD900535D16 /* ViewModel.swift in Sources */,
 				53BBB06C2B71ED2500535D16 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,7 +505,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -416,7 +568,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -437,6 +589,7 @@
 		};
 		53BBB0912B71ED2700535D16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FC9F1EE261940D682364EA5 /* Pods-SwitchProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -449,6 +602,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +618,7 @@
 		};
 		53BBB0922B71ED2700535D16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4D10A539016B39618F5A023 /* Pods-SwitchProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -476,6 +631,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -491,6 +647,7 @@
 		};
 		53BBB0942B71ED2700535D16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 570C9C9520AA79A153CBE226 /* Pods-SwitchProjectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +667,7 @@
 		};
 		53BBB0952B71ED2700535D16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AF9DF6416560A9131CFB0B3 /* Pods-SwitchProjectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -529,6 +687,7 @@
 		};
 		53BBB0972B71ED2700535D16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78199EBE28AB736C29F9710D /* Pods-SwitchProject-SwitchProjectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +705,7 @@
 		};
 		53BBB0982B71ED2700535D16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A96915C7101E99B295B6557C /* Pods-SwitchProject-SwitchProjectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
